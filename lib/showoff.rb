@@ -276,6 +276,7 @@ class ShowOff < Sinatra::Application
     end
 
     def onepage(static=false)
+      @title = ShowOffUtils.showoff_title
       @slides = get_slides_html(static)
       erb :onepage
     end
