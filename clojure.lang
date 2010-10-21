@@ -1,4 +1,4 @@
-(preproc,comment) = `(;=>)(.*)`
+(comment) = `(;=>)`
 
 comment delim "#\|" "\|#" multiline nested
 comment start ";"
